@@ -15,6 +15,8 @@
 		6B332DDC2060B53E00C92A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B332DDB2060B53E00C92A0E /* main.m */; };
 		6B332DE62060B53F00C92A0E /* ResponderChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B332DE52060B53F00C92A0E /* ResponderChainTests.m */; };
 		6B332DF12060B53F00C92A0E /* ResponderChainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B332DF02060B53F00C92A0E /* ResponderChainUITests.m */; };
+		6B332E012060B61C00C92A0E /* UIResponder+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B332E002060B61C00C92A0E /* UIResponder+Chain.m */; };
+		6B332E042060D45200C92A0E /* NSObject+Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B332E032060D45200C92A0E /* NSObject+Selector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6B332DEC2060B53F00C92A0E /* ResponderChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponderChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B332DF02060B53F00C92A0E /* ResponderChainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderChainUITests.m; sourceTree = "<group>"; };
 		6B332DF22060B53F00C92A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B332DFF2060B61C00C92A0E /* UIResponder+Chain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Chain.h"; sourceTree = "<group>"; };
+		6B332E002060B61C00C92A0E /* UIResponder+Chain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Chain.m"; sourceTree = "<group>"; };
+		6B332E022060D45200C92A0E /* NSObject+Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Selector.h"; sourceTree = "<group>"; };
+		6B332E032060D45200C92A0E /* NSObject+Selector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Selector.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		6B332DCB2060B53600C92A0E /* ResponderChain */ = {
 			isa = PBXGroup;
 			children = (
+				6B332DFE2060B5E000C92A0E /* ResponderChain */,
 				6B332DCC2060B53600C92A0E /* AppDelegate.h */,
 				6B332DCD2060B53600C92A0E /* AppDelegate.m */,
 				6B332DCF2060B53600C92A0E /* ViewController.h */,
@@ -130,6 +137,17 @@
 				6B332DF22060B53F00C92A0E /* Info.plist */,
 			);
 			path = ResponderChainUITests;
+			sourceTree = "<group>";
+		};
+		6B332DFE2060B5E000C92A0E /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				6B332DFF2060B61C00C92A0E /* UIResponder+Chain.h */,
+				6B332E002060B61C00C92A0E /* UIResponder+Chain.m */,
+				6B332E022060D45200C92A0E /* NSObject+Selector.h */,
+				6B332E032060D45200C92A0E /* NSObject+Selector.m */,
+			);
+			path = ResponderChain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B332E042060D45200C92A0E /* NSObject+Selector.m in Sources */,
+				6B332E012060B61C00C92A0E /* UIResponder+Chain.m in Sources */,
 				6B332DD12060B53600C92A0E /* ViewController.m in Sources */,
 				6B332DDC2060B53E00C92A0E /* main.m in Sources */,
 				6B332DCE2060B53600C92A0E /* AppDelegate.m in Sources */,
